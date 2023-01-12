@@ -1,0 +1,7 @@
+This chapter's dedicated to the style iheritence.
+
+1. some styles, like color, can be inherited from parental tag. In this examle "em" and "strong" tags gain color from parent "p". But link "a" doesn't.
+
+2. also styles can be inherited through parent class attribute. And if there're multiple styles the styles conflict takes place. In this scenario brouser picks the most specific style. The closest in elements tree for "p" and it's children is p-style.
+
+3. there're exeptions in style inheritence: things like paddings, margins, borders f.e. This mechanism allows styles to be more comfortable to use.
